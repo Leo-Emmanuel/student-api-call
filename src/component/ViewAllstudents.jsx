@@ -30,7 +30,7 @@ const ViewAllAllstudents = () => {
                     <div className="col-12">
                         <center><h2>STUDENT DETAILS</h2></center>
 
-                        <table class="table">
+                        <table class="table-light">
                             <thead>
                                 <tr>
                                     <th>Id</th>

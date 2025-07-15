@@ -6,6 +6,7 @@ import Addstudent from './component/Addstudent';
 import Search from './component/Search';
 import Delete from './component/Delete';
 import ViewAllStudents from './component/ViewAllstudents';
+import Login from './component/Login';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/add" element={<Addstudent />} />
         <Route path="/search" element={<Search />} />
         <Route path="/delete" element={<Delete />} />
+        <Route path="/login" element={<Login />} />
         
 
 

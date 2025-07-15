@@ -12,6 +12,11 @@ const Navbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+       <li class="nav-item">
+          <Link class="nav-link" to="/login">Login</Link>
+        </li>
+
          <li class="nav-item">
           <Link class="nav-link" to="/add">Addstudent</Link>
         </li>
@@ -23,6 +28,7 @@ const Navbar = () => {
         <li class="nav-item">
           <Link class="nav-link" to="/search">Search</Link>
         </li>
+
         
       </ul>
       
